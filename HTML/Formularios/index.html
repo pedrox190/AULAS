@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Trabalhando com formularios</h1>
+    <p>Formularios simples</p>
+
+    <form action="">
+        <p>
+            <label for="inome">Nome:</label><!--ctrl shift p para envolver e label é 
+            obrigatorio para todo input ou dado de etiqueta-->
+
+            <input type="text" name="Nome" id="inome"><!--input é para colocar a caixa para escrever/ name é a
+             tag para identificar oq eu estou fazendo/ id é para identificação-->
+
+        </p>
+
+        <p>
+            <label for="isobrenome">Sobrenome</label>
+            <input type="text" name="Sobrenome" id="isobrenome">
+        </p>
+        <p>
+            <label for="iemail">E-mail</label>
+            <input type="email" name="Email" id="iemail"> <!--input tipo email para ir quando usar @-->
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha"><!--input tipo senha para deixar nao visivel-->
+        </P>
+        <p>
+                Cor favorita <br>
+                <label for="ivermelho">Vermelho</label>
+                <input type="radio" name="cor" id="ivermelho"><br>
+                <label for="ilaranja">Laranja</label>
+                <input type="radio" name="cor" id="ilaranja"><br>
+                <label for="izul">Azul</label>
+                <input type="radio" name="cor" id="iazul">
+        </p> 
+        <p>
+            Gosto musical <br>
+            <input type="checkbox" id="itrap" name="trap">
+            <label for="itrap">trap</label>
+        </p>
+        <p>Curso
+            <select name="" id="">
+                <option value="">Selecione...</option>
+                <option value="">Desenvolvimento de Sistemas</option>
+                <option value="">Gestão Empresarial</option>
+            </select>
+        </p>   
+        <p>
+            <label for="imensagen">Mensagem</label>
+            <textarea name="" id="" cols="30" rows="2"></textarea>
+        </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <p>
+            <input type="submit" value="Entrar"><!--serve para criar a caixa para ir o site-->
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+
+</html>
