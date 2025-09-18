@@ -1,0 +1,28 @@
+    .caixa {
+    background-color: #8eb054;
+    color: aqua;
+    font-family: Times, Cochin, Georgia, Cambria, "Times New Roman", serif;
+    width: 700px;
+    height: 500px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    padding: 200px;
+    box-sizing: border-box;
+    }
+    .caixa1 {
+    background-color: rgb(17, 84, 98);
+    width: 500px;
+    height: 500px;
+    }
+.caixa2 {
+  background-color: rgb(176, 84, 98);
+  background-image: url(Hollow_Knight_first_cover_art.webp.png); /*adicione uma imagem ao fundo sda caixa*/
+  background-position: center; /*ajusta a posição*/
+  width: 500px; /*ajusta o tamanho da caixa*/
+  height: 332px; /*ajusta a altura da caixa*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* mudando a cor de fundo, a cor do texto e a fonte do texto*/
+/*"#&eb054" é o codigo hexzadecimal para colocar a cor/ rgb estou mudando a cor em rbg */
+/**/
