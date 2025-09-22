@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+
+body{
+    background-color: chocolate;/*muda a cor so fundo*/
+    margin: 20px;/*deixa uma margin*/
+}
+#cabeçalho{
+    color: white;/*muda a cor da letra*/
+    text-align: center;/*alinha o texto em cantos ou no centro*/
+    border-radius: 10px;/*cria uma borda entre o h1*/
+    background-color: black;/*muda a cor do fundo do h1*/
+    padding: 10px;/*cra um espaço para nao ficar colado na borda*/
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;/*tira todos os esfeitos do texto*/
+}
+.titulo_principal{
+    font-style: oblique;/*tipo da fonte*/
+    font-weight: lighter;/*muda a força da fonte*/
+    font-family: "Heebo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  
+}
+.titulo2{
+    color: blue;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    
+}
+.caixa{
+    background-color: black;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+p{
+    color: white;
+    font-family: "Bitcount Prop Double Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+}
