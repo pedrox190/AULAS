@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+}
+.container{
+    display: flex;/* serve para ativar o flex box vai ajustar de acordo com oq vc fizer */
+    background-color: springgreen;
+    height: 500px;
+    flex-direction: row   ;/* define a direção do eixo principal e transversal*/
+    /* mexer no alinhamento eixo principal */
+    /*(gap: 50px;) espaçamento entre os itens MUITOOOOOO BOMMMMMMMMMM */
+    /*  justify-content: center; = alinhamento  no centro do eixo principal */
+    /*  justify-content: felx-start; = alinhamento  no começo do eixo principal */
+    /*  justify-content: space-between; = espaçamento entre os itens */
+    /*  justify-content: space-around; = espaçamento entre os itens e a tela e cria um espaçamento ao redor dos itens*/
+    /*  justify-content: space-evenly; = espaçamento entre os itens e a tela e cria um espaçamento ao redor dos itens e tambem um espaçamento igual para todos*/
+    align-items:center ;/*  o align itens mexe no espaçamento e alinhamento do nosso eixo transversal(cross axis)*/
+    /* o align-itens center alinha os itens do eixo transversal de baixo para cime do centro */
+    /* align-itens flex-start alinha is itens pro começo do eixo/start */
+    /* o align-itens stretch ele adapta o tamanho dos itens de acordo com o tamanho do container */
+}
+.item{
+
+    border: 1px solid black;
+    padding: 30px;/* espaçamento imterno */
+
+}
+/*  MAIN AXIS  É O EIXO PRINCIPAL*/
+/* CROSS AXIS LARGURA */
+/* ROW É A LIHA PRINCIPAL */
+/* ROW REVERSE INVERTE A LINHA PRINCIPAL */
+/* column-reverse deixa de cabeça para baixo ou tambem invertido */
+/* column é como se virassemos o noosso container de cabeça para baixp */
+

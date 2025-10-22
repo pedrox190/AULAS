@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.8fr 1fr 0.2fr;
+    height: 100vh;
+    grid-template-areas: 
+    "content1 content1 content2 content2"
+    "content3 content4 content4 content4"
+    "rodape rodape rodape rodape"
+    ;
+    gap: 10px;
+}
+
+.content1{
+    grid-area: content1;
+    background-color: blue;
+    
+}
+.content2{
+    grid-area: content2;
+    background-color: chartreuse;
+}
+.content3{
+    grid-area: content3;
+    background-color: darkseagreen;
+}
+.content4{
+    grid-area: content4;
+    background-color: gray;
+}
+.rodape{
+    grid-area: rodape;
+    background-color: indianred;
+}

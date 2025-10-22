@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    color: white;
+}
+/* ele faz se adapitar o css com o tamanho da tela */
+/* se menor que 765px ele faz a cor do background e a cor mudar sem chamar  o hover */
+/*TAMANHO MOBILE = CELULAR */
+@media (min-width:320px) and (max-width:768px){
+    .container{
+        background-color: red;
+        color: rgb(36, 5, 5);
+    }
+}
+
+/* TAMANHO TABLET */
+@media (min-width:769px) and (max-width: 1024px){
+
+    .container{
+        background-color: rgb(30, 255, 0);
+        color: rgb(233, 20, 187);
+    }
+
+}

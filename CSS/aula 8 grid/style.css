@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* é o alinhamento dos itens na horizontal |é o alinhamento dos itens na vertical | é o alinhamento do container na vertical | é o alinhamento do container na vertical */
+.container{
+    border: 3px solid rgb(60, 255, 0);
+    display: grid;/* ativa o display grid */ /* quando a gente mexe com o display grid ele tem o alinhameno horizontaç e vertical nas linhas  */
+    grid-template-columns: 1fr 1fr 1fr;/* define a quantidade de colunas que teremos 1fr é a fração do espaco que sobrou na tela*/
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 150vh;
+    justify-items:start ;/* é o alinhamento dos itens na horizontal */
+    align-items: stretch;/* é o alinhamento dos itens na vertical */
+        justify-content: end;/* é o alinhamento do container na vertical */
+        align-content: end;/* é o alinhamento do container na vertical */
+    gap: 10px;
+}
+
+.item{
+    border: 3px solid rgb(26, 1, 255);
+    width: 200px ;
+    background-color: mediumturquoise;
+    font-size: larger;
+}
+#b{
+    height: 300px;
+}
